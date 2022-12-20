@@ -1,7 +1,7 @@
 // import dependencies
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import axios from 'axios' 
 
 //import components
 import Error from './components/pages/Error'
