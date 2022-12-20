@@ -35,7 +35,7 @@ const Formulario = () => {
     }
 
     return (
-        <div className='section m-5'>
+        <div className='section m-5 container'>
           <h2 style={{color: 'white'}}>
               Formulario de compra
           </h2>
@@ -43,7 +43,7 @@ const Formulario = () => {
 
               {Object.keys(inputs).map((key, index) => (
               <Form.Group className="mb-3" key={index}>
-                  <Form.Label id="form">
+                  <Form.Label id="form" style={{color: 'white'}}>
                       {key}
                   </Form.Label>
                   <Form.Control 
