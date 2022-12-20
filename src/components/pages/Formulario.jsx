@@ -36,7 +36,7 @@ const Formulario = () => {
 
     return (
         <div className='section m-5'>
-          <h2>
+          <h2 style={{color: 'white'}}>
               Formulario de compra
           </h2>
           <Form>
