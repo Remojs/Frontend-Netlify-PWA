@@ -12,10 +12,7 @@ const Navbarr = () => {
         <Nav.Link href="/news" className={({isActive}) => (isActive ? 'link active' : 'link')}> News </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/form" className={({isActive}) => (isActive ? 'link active' : 'link')}> Form </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="/table" className={({isActive}) => (isActive ? 'link active' : 'link')}> Table </Nav.Link>
+        <Nav.Link href="/formulario" className={({isActive}) => (isActive ? 'link active' : 'link')}> Form </Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link href="https://backend-pwa-production-82ba.up.railway.app/personas" className={({isActive}) => (isActive ? 'link active' : 'link')}> Entries </Nav.Link>
